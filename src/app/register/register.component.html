@@ -1,0 +1,22 @@
+<div class="register-container">
+  <h2>Create New Account</h2>
+  <form [formGroup]="registerForm" (ngSubmit)="onRegisterSubmit()">
+    <div class="form-group">
+      <label for="register-name">Name</label>
+      <input type="text" id="register-name" class="form-control" formControlName="name" required>
+    </div>
+    <div class="form-group">
+      <label for="register-email">Email</label>
+      <input type="email" id="register-email" class="form-control" formControlName="email" required>
+    </div>
+    <div class="form-group">
+      <label for="register-password">Password</label>
+      <input type="password" id="register-password" class="form-control" formControlName="password" required>
+    </div>
+    <div class="form-group">
+      <label for="register-phone">Phone Number</label>
+      <input type="tel" id="register-phone" class="form-control" formControlName="phoneNumber" required>
+    </div>
+    <button type="submit" class="submit-button">Register</button>
+  </form>
+</div>
