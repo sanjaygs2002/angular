@@ -1,0 +1,25 @@
+{
+  "users": [
+    {
+      "name": "Sanjay",
+      "email": "sanju@gmail.com",
+      "password": "Sanjay@2002",
+      "phoneNumber": "8976564567",
+      "id": 1
+    },
+    {
+      "name": "pranesh",
+      "email": "pranu@gmail.com",
+      "password": "Pranesh@2002",
+      "phoneNumber": "8976564567",
+      "id": 2
+    },
+    {
+      "name": "pradeep",
+      "email": "pradeep@gmail.com",
+      "password": "Pradeep@2002",
+      "phoneNumber": "8976564599",
+      "id": 3
+    }
+  ]
+}
